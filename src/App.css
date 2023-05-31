@@ -4,11 +4,34 @@
 
 body{
   background-color: rgb(30, 30, 30);
-  color: black;
+  color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .map{
   height: 98vh;
   width: 99vw;
+}
+
+.mapboxgl-popup-content{
+  border: 2.5px solid black;
+  border-radius: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  color: black;
+}
+.mapboxgl-popup-tip{
+  display: none;
+}
+.mapboxgl-popup-close-button{
+  display: none;
+}
+
+.splash{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(30, 30, 30);
 }
